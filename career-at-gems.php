@@ -46,10 +46,10 @@ if(isset($_POST['submit'])){
             if($uploadStatus == 1){
                 
                 // Recipient
-                $toEmail = 'gisgurgaon2020@gmail.com';
+                $toEmail = 'amrita.vohra@gemseducation.com';
 
                 // Sender
-                $from = 'admision@gemsedu.in';
+                $from = 'gisgurgaon2020@gmail.com';
                 $fromName = 'career@GEMS';
                 
                 // Subject
