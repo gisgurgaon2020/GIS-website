@@ -5832,7 +5832,7 @@ body {
 @media (max-width: 768px) {
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(15, 12, 12, 0.5);
+    color: rgba(15, 12, 12);
     font-size: 0.8rem;
   }
 }
