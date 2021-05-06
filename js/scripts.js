@@ -99,11 +99,20 @@
 // Nav
 !function(a){"use strict";a('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function(){}),a(".js-scroll-trigger").click(function(){}),a("body").scrollspy({target:"#mainNav",offset:100});var t=function(){a("#mainNav").offset().top>100?a("#mainNav").addClass("navbar-shrink"):a("#mainNav").removeClass("navbar-shrink")};t(),a(window).scroll(t)}(jQuery),$(document).on("click","#sendMailBtn",function(a){});
 
+// Nav Collapse
+$('.navbar-toggler').click(function() {
+  $('.navbar-collapse').toggleClass('collapse');
+});
+
 // Carousel
 
 function showSlides(slide, slideIndex = 0) {
     var i;
     var slides = document.querySelectorAll(`${slide} .mySlides`);
+
+    if (slides.length === 0) {
+      return;
+    }
     var dots = document.querySelectorAll(`${slide} .dot`);
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";  
