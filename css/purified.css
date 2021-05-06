@@ -5430,7 +5430,21 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
-
+@media (max-width: 500px) {
+  .masthead {
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3) 0,
+        rgba(0, 0, 0, 0.7) 75%,
+        #000 100%
+      ),
+      url(../assets/img/bg-2-500.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
 .masthead-senior {
   position: relative;
   width: 100%;
